@@ -2,9 +2,9 @@
 title: "Dynamic Grouping using SQL Report Builder"
 last_modified_at: 2017-05-20T18:00:00-00:00
 categories:
-  - Blog
-tags:
+  - Dynamics
   - SSRS
+tags:
   - Useful Tips
 header:
   teaser: /assets/images/posts/ssrs_dynamic_grouping/0_teaser.png
