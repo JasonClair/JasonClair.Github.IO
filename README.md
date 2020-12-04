@@ -1,1 +1,1 @@
-# jasonclair.github.io
+Blog using the Minimal Mistakes theme & Jekyll
