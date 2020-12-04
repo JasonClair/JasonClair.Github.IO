@@ -7,7 +7,7 @@ tags:
   - SSRS
   - Useful Tips
 header:
-  teaser: /assets/images/posts/ssrs_dynamic_grouping/4-ssrs-dynamic-grouping-grouped-make.png
+  teaser: /assets/images/posts/ssrs_dynamic_grouping/0_teaser.png
 ---
 One of the requirements that came in recently was for some reports to be created, upon investigation the reports were the same but grouped differently. Rather than creating individual reports, I wondered if there was a way to allow the user to select the grouping method within the report itself, which would mean less duplication of reports.
 

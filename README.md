@@ -1,1 +1,0 @@
-Blog using the Minimal Mistakes theme & Jekyll
