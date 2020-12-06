@@ -8,7 +8,7 @@ tags:
   - JavaScript
   - REST
 header:
-  teaser: /assets/images/posts/sharepoint_ribbon_context/1-Ribbon_NotFocusedOnDocumentLibrary.png
+  teaser: /assets/images/posts/CRM_REST_javascript/1_CRMRestBuilder.png
 ---
 A requirement came up where the sales managers wanted to be able to see who had viewed an opportunity in Dynamics CRM. At first, I looked at using the auditing functionality, but I could only see examples of this working with creating, updating & deleting records - please comment if I've missed something. So with this in mind, I looked at other alternatives.
 
