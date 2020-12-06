@@ -1,6 +1,6 @@
 ---
 title: "Opening a record in Dynamics from SSRS"
-last_modified_at: 2017-11-20T18:00:00-00:00
+last_modified_at: 2017-11-7T18:00:00-00:00
 categories:
   - Dynamics
   - SSRS

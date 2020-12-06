@@ -1,6 +1,6 @@
 ---
 title: "SharePoint Setting Ribbon Context using JavaScript"
-last_modified_at: 2017-10-20T18:00:00-00:00
+last_modified_at: 2017-10-8T18:00:00-00:00
 categories:
   - SharePoint
 tags:
