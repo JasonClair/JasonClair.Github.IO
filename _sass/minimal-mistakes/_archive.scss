@@ -89,6 +89,9 @@
   position: relative;
   border-radius: $border-radius;
   overflow: hidden;
+  float:left;
+  width:40%;
+  padding-right:10px;
 
   img {
     width: 100%;
@@ -125,6 +128,7 @@
    ========================================================================== */
 
 .list__item {
+  overflow:auto;
   .page__meta {
     margin: 0 0 4px;
     font-size: 0.6em;
