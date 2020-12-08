@@ -8,6 +8,7 @@ tags:
   - JavaScript
 header:
   teaser: /assets/images/posts/cascading_drop_down/CDD_FirstImage.png
+classes: wide
 ---
 A user asked if it would be possible to recreate cascading drop down lists like they had in SalesForce. I thought this would be an out of the box configuration and agreed that they could have it. Surprisingly, this doesn’t seem to be something that is out of the box – but handily Microsoft have published an excellent tutorial on MSDN about how to do this using JavaScript.
 
@@ -45,4 +46,4 @@ Metal & Plastics showing for Manufacturing
 ![Dynamics & SharePOint showing for Application Development](/assets/images/posts/cascading_drop_down/6_CDD_AppDev.png)
 
 ## Summary
-Overall, thanks to the Microsoft sample code this proves to be a relatively simple piece of functionality to add that potentially provides a lot of value to the end user. I’m hopeful that this will be added into the system at some point.
+Overall, thanks to the Microsoft sample code this proves to be a relatively simple piece of functionality to add that potentially provides a lot of value to the end user. 

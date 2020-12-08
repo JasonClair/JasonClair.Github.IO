@@ -7,6 +7,7 @@ tags:
   - Useful Tips
 header:
   teaser: /assets/images/posts/sharepoint_coloured_calendar_overlay/6-coloured_calendar_with_overlay_duplication_fix.png
+classes: wide
 ---
 One of the features that I’ve found users like most about the SharePoint calendar is the ability to colour code entries. In some cases users have coloured the calendar dependent on who the appointment is for, in others, they have coloured based on the type of appointment, this blog post will show the latter scenario.
 For this example, I will be using the out of the box calendar functionality and choosing the colour based on the category using calendar overlays.

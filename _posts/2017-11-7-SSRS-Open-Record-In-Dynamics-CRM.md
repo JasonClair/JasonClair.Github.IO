@@ -8,6 +8,7 @@ tags:
   - Useful Tips
 header:
   teaser: /assets/images/posts/CRM_REST_javascript/1_CRMRestBuilder.png
+classes: wide
 ---
 
 One of the requests a user had recently was being able to click on the name of a sales document in a report and for it to open the record in Dynamics. I knew SSRS reports supported actions, but I wasn’t sure if Dynamics would allow a URL to be passed in – thankfully Microsoft had accounted for this requirement. This post will look at how to achieve this functionality.

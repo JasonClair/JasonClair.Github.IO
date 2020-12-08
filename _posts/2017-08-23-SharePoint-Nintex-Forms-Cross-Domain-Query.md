@@ -7,7 +7,7 @@ categories:
 tags:
   - JavaScript
 header:
-
+classes: wide
 ---
 A requirement came in from a customer asking if it would be possible to use information from 'List A' and use it as validation on another form. At first I tried to directly access the list using JavaScript, but this is prevented due to Cross Domain Scripting issues, instead, I needed to the SP.RequestExecutor functionality. This post will go through a simple of example of querying a list for an item and displaying it in an alert.
 

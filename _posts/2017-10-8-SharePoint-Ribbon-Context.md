@@ -8,6 +8,7 @@ tags:
   - JavaScript
 header:
   teaser: /assets/images/posts/sharepoint_ribbon_context/1-Ribbon_NotFocusedOnDocumentLibrary.png
+classes: wide
 ---
 I recently had a user ask me to create a web part page which had a document library & content editor web part which described the purpose of the library & where to get more information should they need it. By doing this, the ribbon context was lost which meant that the users no longer received Files & Library tabs – they could get the tabs back by clicking in the library but not all users were aware of this.
 
