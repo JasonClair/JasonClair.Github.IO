@@ -3,9 +3,9 @@ title: "SharePoint / Nintex Forms Cross Domain Query"
 last_modified_at: 2017-08-23T18:00:00-00:00
 categories:
   - SharePoint
-  - Nintex
 tags:
   - JavaScript
+  - Nintex
 header:
 classes: wide
 ---

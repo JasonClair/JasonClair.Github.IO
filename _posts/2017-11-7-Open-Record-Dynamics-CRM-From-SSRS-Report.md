@@ -3,9 +3,9 @@ title: "Opening a record in Dynamics from SSRS"
 last_modified_at: 2017-11-7T18:00:00-00:00
 categories:
   - Dynamics
-  - SSRS
 tags:
   - Useful Tips
+  - SSRS
 header:
   teaser: /assets/images/posts/CRM_REST_javascript/1_CRMRestBuilder.png
 classes: wide
