@@ -1,6 +1,6 @@
 ---
 title: "Dynamics CRM 2016 - Creating a record in a custom entity using JavaScript & REST"
-last_modified_at: 2017-11-4T18:00:00-00:00
+last_modified_at: 2017-11-04T18:00:00-00:00
 categories:
   - Dynamics
 tags:
