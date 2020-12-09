@@ -4,7 +4,7 @@ last_modified_at: 2018-06-28T18:00:00-00:00
 categories:
   - Dynamics
 tags:
-  - Useful Tips
+  - Errors
 header:
   teaser: /assets/images/posts/product-in-parent/0_teaser.png
 classes: wide
