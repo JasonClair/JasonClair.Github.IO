@@ -9,7 +9,7 @@ tags:
   - Solution Management
   - Visual Studio Team Services
 header:
-  teaser: /assets/images/posts/CRM_REST_javascript/1_CRMRestBuilder.png
+  teaser: /assets/images/posts/automated-solution-deployment/0_teaser.png
 classes: wide
 ---
 
