@@ -8,7 +8,6 @@ tags:
 header:
   teaser: /assets/images/posts/error-importing-8.2-solution/0_teaser.png
 classes: wide
-comments: true
 ---
 
 Whilst importing a Dynamics CRM v8.2 managed solution into Dynamics CRM v9 I encountered the following error. Searching the internet suggests that the error is mainly thrown when trying to install ADX Studio, I didn’t see any examples that mentioned solution imports from v8.2 to v9. The error message thrown is:
