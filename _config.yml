@@ -32,7 +32,11 @@ words_per_minute         : 200
 
 # staticman (comments) configuration
 staticman_url: https://jason-staticman-app.herokuapp.com/v2/entry/jasonclair/jasonclair.github.io/master/comments
-
+comments:
+  provider  : "staticman_v2"
+  staticman:
+    branch    : "master"
+    
 atom_feed:
   path                   : # blank (default) uses feed.xml
 search                   : true 
