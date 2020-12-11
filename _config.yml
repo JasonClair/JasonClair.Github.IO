@@ -36,6 +36,7 @@ comments:
   provider  : "staticman_v2"
   staticman:
     branch    : "master"
+    endpoint  : https://jason-staticman-app.herokuapp.com/v2/entry/
 
 atom_feed:
   path                   : # blank (default) uses feed.xml
