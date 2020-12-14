@@ -1,5 +1,5 @@
 ---
-title: "Dynamics 365 CRM – ‘Products in Parent Price List updated’ saved query missing"
+title: "Error when importing Dynamics CRM 365 v8.2 managed solution into v9 instance"
 last_modified_at: 2018-07-31T18:00:00-00:00
 categories:
   - Dynamics
