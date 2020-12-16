@@ -25,17 +25,17 @@ I use the components below on my form. I recommend using the settings in the IFr
 
 * Tab
 * IFrame
-* * Restrict cross-frame scripting has to be disabled
-* * Number of Rows set to 34
-* * Scrolling set to Never
-* * Display Border disabled
+  * Restrict cross-frame scripting has to be disabled
+  * Number of Rows set to 34
+  * Scrolling set to Never
+  * Display Border disabled
 
 ## Script Setup
 
 The following script then needs to be added to the on-load event of the Form with the formContext passed as the initial variable & then the tab name and IFrame name following it.
 
 ``` javascript
-/// Show Documents subgrid on the main form
+/// Show Documents sub-grid on the main form
 function setDocumentsIFrame(executionContext, tabName, iframeName) {
     var formContext = executionContext.getFormContext();
 

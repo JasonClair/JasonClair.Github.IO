@@ -1,7 +1,30 @@
 {
     "cSpell.ignoreWords": [
+        "accountid",
+        "beja",
+        "betim",
+        "contactid",
+        "formid",
+        "fullname",
+        "lastname",
         "lattimer",
         "lattimer's",
-        "ssrserror"
+        "nameandcity",
+        "odata",
+        "operationaccount",
+        "pagemode",
+        "parentaccountid",
+        "parentcustomerid",
+        "recents",
+        "regardingobjectid",
+        "resultset",
+        "sharepointdocumentlocations",
+        "ssrserror",
+        "typeof",
+        "uiname",
+        "uitype",
+        "unsecure",
+        "userdefined",
+        "value"
     ]
 }
