@@ -58,7 +58,7 @@ It is not possible to add a sub-grid for SharePoint Documents to the page out of
 
 ![The view from within Dynamics](/assets/images/posts/enable-sharepoint-document-management/6_DocumentsShown.png)
 
-![The view from within SharePoint](/assets/images/posts/enable-sharepoint-document-management/7_DocumentsShownInSharePoint.png)
+![The view from within SharePoint](/assets/images/posts/enable-sharepoint-document-management/7_DocumentShownInSharePoint.png)
 
 ## Summary
 
@@ -66,4 +66,4 @@ The Dynamics 365 SharePoint Integration is easy to setup & can help reduce costs
 
 You will also receive the added benefit of version control & SharePoint workflows, which can help with document management.
 
-The ability to search within documents in Dynamics will be lost, but it is possible to search with SharePoint. This is something that you will have to decide if it is worth it or not. It is possible to have some documents in Dynamics & some in SharePoint
+The ability to search within documents in Dynamics will be lost, but it is possible to search with SharePoint. This is something that you will have to decide if it is worth it or not. It is possible to have some documents in Dynamics & some in SharePoint.
