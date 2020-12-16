@@ -54,7 +54,7 @@ The documents are then accessible from within a record using the navigation menu
 
 ![Navigation Menu shows Documents under Related Items](/assets/images/posts/enable-sharepoint-document-management/5_NavigateToDocuments.png)
 
-It is not possible to add a sub-grid for SharePoint Documents to the page out of the box. I have create another post which shows how you can use an IFrame to achieve this.
+It is not possible to add a sub-grid for SharePoint Documents to the page out of the box. I have created another [post](/dynamics/dynamics-365-show-sharepoint-documents-on-form) which shows how you can use an IFrame to achieve this.
 
 ![The view from within Dynamics](/assets/images/posts/enable-sharepoint-document-management/6_DocumentsShown.png)
 
