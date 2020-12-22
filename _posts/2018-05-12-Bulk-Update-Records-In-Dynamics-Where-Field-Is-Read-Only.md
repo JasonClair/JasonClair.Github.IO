@@ -22,6 +22,6 @@ The solution is:
 * Set the form to be the last in the form order
 * Publish your changes
 
-Once you’ve created the form the system admins will need to view a record in it first. This is because the bulk edit form will use the last form used. 
+Once you’ve created the form the system admins will need to view a record in it first. This is because the bulk edit form will use the last form used.
 
-By setting the form security role to System Admins we will also prevent the users seeing the form. Meaning they can still be restricted to certain fields within the form. 
+By setting the form security role to System Admins we will also prevent the users seeing the form. Meaning they can still be restricted to certain fields within the form.

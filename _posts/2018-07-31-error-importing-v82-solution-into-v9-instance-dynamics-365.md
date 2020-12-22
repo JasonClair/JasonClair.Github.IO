@@ -21,13 +21,16 @@ The import log pointed out that this was against the Marketing List entity. I ha
 * Open Customizations.xml
 * Search for the entity name
 * Find the values for the fields below and change from ‘0’ to ‘1’
-* * IsVisibleInMobile
-* * IsVisibleInMobileClient
-* * IsReadOnlyInMobileClient
-* Rezip the solution and import as normal
+  * IsVisibleInMobile
+  * IsVisibleInMobileClient
+  * IsReadOnlyInMobileClient
+* Re-zip the solution and import as normal
 
-![XML to Modify](/assets/images/posts/error-importing-8.2-solution/0_teaser.png)
+{%
+  include figure
+  image_path="/assets/images/posts/error-importing-8.2-solution/0_teaser.png"
+  alt="XML to Modify"
+  caption="XML to Modify"
+%}
 
-I was curious to see if the v8.2 solution could be updated so that the values were set to ‘1’ so that this step didn’t need to be done every time 
-
-I imported into the v9 solution, however when attempting to do this, the same error message is thrown as above. Based on this, I believe the value must change from the v8.2 to v9 version.
+I was curious to see if the v8.2 solution could be updated so that the values were set to ‘1’ so that this step didn’t need to be done every time I imported into the v9 solution, however when attempting to do this, the same error message is thrown as above. Based on this, I believe the value must change from the v8.2 to v9 version.

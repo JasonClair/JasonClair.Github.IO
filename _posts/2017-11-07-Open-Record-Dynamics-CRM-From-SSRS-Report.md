@@ -17,18 +17,27 @@ Microsoft actually exposes a few parameters which can be used in the report out 
 
 The first step is to create a parameter in your report called ‘CRM_URL’, it’s important that you use the exact name otherwise the value will not be passed through. The URL will be concatenated with more information later on.
 
-![Setting the CRM_URL parameters](/assets/images/posts/ssrs_open_in_crm/1_URL_Parameters.png)
-Creating the URL Parameter
+{%
+  include figure
+  image_path="/assets/images/posts/ssrs_open_in_crm/1_URL_Parameters.png"
+  alt="Setting the CRM_URL parameters"
+  caption="Setting the CRM_URL parameters"
+%}
 
 The next step is to create the action on the text box. This is achieved by going to the properties of the text box, at the bottom there is actions. This should be set to ‘Go to URL’.
 
-![Setting the URL Action](/assets/images/posts/ssrs_open_in_crm/2_URL_Action.png)
-Setting the action to 'Go to URL' and creating the expression
+{%
+  include figure
+  image_path="/assets/images/posts/ssrs_open_in_crm/2_URL_Action.png"
+  alt="Setting the action to 'Go to URL' and creating the expression"
+  caption="Setting the action to 'Go to URL' and creating the expression"
+%}
 
 To concatenate the URL I have used an expression. The expression is assigning the GUID & the [Logical Name](https://social.technet.microsoft.com/wiki/contents/articles/9214.microsoft-dynamics-crm-2011-entity-logical-name-and-entity-schema-name.aspx){:target="_blank"}. The logical name will need to change if you want to open other entities.
 
-```
+```vbscript
+
 =Parameters!CRM_URL.Value & "?ID={" & Fields!ac_salesorderid.Value & "}&LogicalName=salesorder"
 ```
 
-**Update**: since using this functionality, I have encountered an issue which stops the link from working. For information about this please see this post.
+**Update**: since using this functionality, I have encountered an issue which stops the link from working. For information about this please see this [post](/dynamics/Dynamics-365-SSRS-Report-Open-Link-Error).

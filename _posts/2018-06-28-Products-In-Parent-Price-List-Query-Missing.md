@@ -24,4 +24,4 @@ The steps to resolve the issue are:
 1. Save the view
 1. Publish customizations
 
-Now if you try to change the product the issue should be resolved. 
+Now if you try to change the product the issue should be resolved.

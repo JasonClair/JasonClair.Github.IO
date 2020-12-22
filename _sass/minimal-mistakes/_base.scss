@@ -222,10 +222,13 @@ figure {
   }
 
   img {
-    width: 100%;
+    width: auto;
+    margin: 0 auto;
     border-radius: $border-radius;
     -webkit-transition: $global-transition;
     transition: $global-transition;
+    box-shadow: $box-shadow;
+
   }
 
   > a {
@@ -242,6 +245,8 @@ figure {
 
     figcaption {
       width: 100%;
+      text-align: center;
+      display:block
     }
   }
 
@@ -255,6 +260,9 @@ figure {
 
     figcaption {
       width: 100%;
+      margin-left:auto;
+      margin-right: auto;
+      text-align: center;
     }
   }
 }
@@ -266,7 +274,10 @@ figcaption {
   color: $muted-text-color;
   font-family: $caption-font-family;
   font-size: $type-size-6;
-
+  width: 100%;
+  font-style:italic;
+  text-align: center;
+  padding-top: 5px;
   a {
     -webkit-transition: $global-transition;
     transition: $global-transition;

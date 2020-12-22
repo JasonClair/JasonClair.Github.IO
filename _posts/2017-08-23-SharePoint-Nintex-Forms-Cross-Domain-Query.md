@@ -7,13 +7,19 @@ tags:
   - JavaScript
   - Nintex
 header:
+    teaser: /assets/images/posts/nintex_cross_domain_query/1-query-list.png
 classes: wide
 ---
 A requirement came in from a customer asking if it would be possible to use information from 'List A' and use it as validation on another form. At first I tried to directly access the list using JavaScript, but this is prevented due to Cross Domain Scripting issues, instead, I needed to the SP.RequestExecutor functionality. This post will go through a simple of example of querying a list for an item and displaying it in an alert.
 
 Firstly, the list to query has to be set up - for this example I created a simple custom list and used the out of the box title column. Image 1 shows the list that was created and used in this example.
 
-![List being accessed in query](/assets/images/posts/nintex_cross_domain_query/1-query-list.png)
+{%
+  include figure
+  image_path="/assets/images/posts/nintex_cross_domain_query/1-query-list.png"
+  alt="List being accessed in query"
+  caption="List being accessed in query"
+%}
 
 One of the first things that need to be done is to gather the SPHostUrl & SPAppWebUrl parameters from the query string, these will be used later when the executor is called.
 
@@ -77,4 +83,9 @@ function queryErrorHandler(data, errorCode, errorMessage) {
 
 Below shows the output from the page. Now that the information has been retrieved it can be used in a custom validation event.
 
-![Resulting alert from the page](/assets/images/posts/nintex_cross_domain_query/2-test-message.png)
+{%
+  include figure
+  image_path="/assets/images/posts/nintex_cross_domain_query/2-test-message.png"
+  alt="Resulting alert from the page"
+  caption="Resulting alert from the page"
+%}

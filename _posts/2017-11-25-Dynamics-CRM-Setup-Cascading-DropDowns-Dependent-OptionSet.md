@@ -17,33 +17,61 @@ The tutorial by Microsoft is very useful, but I wanted to create one in my own w
 In this example, I will be making a cascading drop down between the out of the box businesstypecode field and a new custom field called *new_businessspecialisation*.
 
 ## JSON
+
 The code Microsoft provided uses JSON to manage the parent child relationships, this works well & is easy to create, but might become time consuming if the field values change regularly. It may be worth investigating whether there is another way to do this that provides the user with a front end to manage the relationships, but that was beyond the scope of this work.
 
 ## Setup
-The JSON file will need to be uploaded as a web resource (of type JScript). The code provided by Microsoft will also need to be uploaded as a web resource. 
 
-![Adding the code as web resources](/assets/images/posts/cascading_drop_down/1_CDD_WebResource.png)
-Adding the code as web resources
+The JSON file will need to be uploaded as a web resource (of type JScript). The code provided by Microsoft will also need to be uploaded as a web resource.
+
+{%
+  include figure
+  image_path="/assets/images/posts/cascading_drop_down/1_CDD_WebResource.png"
+  alt="Adding the code as web resources"
+  caption="Adding the code as web resources"
+%}
 
 Once the web resources have been created you will need to define the Form On Load functionality, to this simply add the library, enter the function name and pass in the name of your JSON file into the parameters. The script provided by Microsoft this will then concatenate this into a URL to load the source from.
 
-![Setting the onLoad event](/assets/images/posts/cascading_drop_down/1_CDD_WebResource.png)
-Setting the Form OnLoad Event
+{%
+  include figure
+  image_path="/assets/images/posts/cascading_drop_down/2_CDD_FormOnload.png"
+  alt="Setting the onLoad event"
+  caption="Setting the onLoad event"
+%}
 
 Once the Form On Load event has been created you will then need to create the On Change event for the parent field. This time you will need to pass in the name of the parent field & the name of the child field. In the Microsoft example they do this another as they have an extra level.
 
-![Setting the field OnChange event](/assets/images/posts/cascading_drop_down/3_CDD_OnChangeEvent.png)
-Setting the field OnChange event
+{%
+  include figure
+  image_path="/assets/images/posts/cascading_drop_down/3_CDD_OnChangeEvent.png"
+  alt="Setting the field OnChange event"
+  caption="Setting the field OnChange event"
+%}
 
 Once this has been done, everything should be good to go. The next couple of images show the functionality in action.
 
-![Field locked because no parent Business Type has been chosen](/assets/images/posts/cascading_drop_down/4_CDD_NoValue.png)
-Field locked because no parent Business Type has been chosen
+{%
+  include figure
+  image_path="/assets/images/posts/cascading_drop_down/4_CDD_NoValue.png"
+  alt="Field locked because no parent Business Type has been chosen"
+  caption="Field locked because no parent Business Type has been chosen"
+%}
 
-![Metal & Plastics showing for Manufacturing](/assets/images/posts/cascading_drop_down/5_CDD_Manufacturing.png)
-Metal & Plastics showing for Manufacturing
+{%
+  include figure
+  image_path="/assets/images/posts/cascading_drop_down/5_CDD_Manufacturing.png"
+  alt="Metal & Plastics showing for Manufacturing"
+  caption="Metal & Plastics showing for Manufacturing"
+%}
 
-![Dynamics & SharePOint showing for Application Development](/assets/images/posts/cascading_drop_down/6_CDD_AppDev.png)
+{%
+  include figure
+  image_path="/assets/images/posts/cascading_drop_down/6_CDD_AppDev.png"
+  alt="Dynamics & SharePOint showing for Application Development"
+  caption="Dynamics & SharePOint showing for Application Development"
+%}
 
 ## Summary
-Overall, thanks to the Microsoft sample code this proves to be a relatively simple piece of functionality to add that potentially provides a lot of value to the end user. 
+
+Overall, thanks to the Microsoft sample code this proves to be a relatively simple piece of functionality to add that potentially provides a lot of value to the end user.

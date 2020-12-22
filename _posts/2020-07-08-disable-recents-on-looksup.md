@@ -15,4 +15,9 @@ In my previous [post](/dynamics/using-addCustomView-with-lookup-controls), I sho
 
 To do this, go to the Form Designer & open the field properties and tick the option for ‘Disable most recently used items for this field’ (at the time of writing I could only do this using the Classic Experience)
 
-![Field property in Classic Experience](/assets/images/posts/disable-recents/DisablingRecents.png)
+{%
+  include figure
+  image_path="/assets/images/posts/disable-recents/DisablingRecents.png"
+  alt="Disable most recently used items for this field is checked"
+  caption="Field property in Classic Experience"
+%}
