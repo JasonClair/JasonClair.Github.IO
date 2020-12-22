@@ -18,4 +18,9 @@ Some of these customers had decided that they wanted to do more training on Micr
 
 Whilst looking at upgrading some of the environments to Unified Interface one of the first things that got asked was “How do I start an on-demand workflow?”. The answer? Under the “Flow” tab that had been hidden by the settings previously mentioned! Enabling Microsoft Flow & re-adding the ‘Run Flows’ permissions allows the Flow option to appear and under there the on-demand workflows appear too.
 
-![Run Workflow now appears under the Flow menu](/assets/images/posts/unified-interface-workflows/FlowMenu.png)
+{%
+  include figure
+  image_path="/assets/images/posts/unified-interface-workflows/FlowMenu.png"
+  alt="Run Workflow now appears under the Flow menu"
+  caption="Run Workflow now appears under the Flow menu"
+%}

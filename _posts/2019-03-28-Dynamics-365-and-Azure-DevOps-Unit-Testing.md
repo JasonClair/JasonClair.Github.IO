@@ -23,7 +23,12 @@ The first step is to ensure that the unit test assembly (.dll) files are in the 
 
 Adding the unit test step is as easy as editing the build & adding the [Visual Studio Test](https://docs.microsoft.com/en-us/azure/devops/pipelines/tasks/test/vstest?view=azure-devops){:target="_blank"} step at the beginning of the agent and then configuring the Test files field to include the search pattern that would find the test assembly.
 
-![Example configuration fo the Visual Studio Test step - in my example the unit test project compiles to UnitTests.dll](/assets/images/posts/dynamics-and-azure-devops/VisualStudioTestSettings.png)
+{%
+  include figure
+  image_path="/assets/images/posts/dynamics-and-azure-devops/VisualStudioTestSettings.png"
+  alt="Example configuration fo the Visual Studio Test step - in my example the unit test project compiles to UnitTests.dll"
+  caption="Example configuration fo the Visual Studio Test step - in my example the unit test project compiles to UnitTests.dll"
+%}
 
 After the step has been added, any future runs of the build will first check to make sure the unit tests pass. If they do not, then the build fails and subsequently the release is not triggered, so the solutions are not installed on the target instance.
 

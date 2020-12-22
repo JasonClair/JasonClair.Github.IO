@@ -32,33 +32,69 @@ The environment during this demo is a Dynamics 365 Free 30 day trial. The trial 
 
 The first step to enable Dynamics 365 SharePoint Integration is to go to **Settings -> Document Management** and from within there select **Document Management Settings**.
 
-![Document Management Settings](/assets/images/posts/enable-sharepoint-document-management/1_DocumentManagementSettings.png)
+{%
+  include figure
+  image_path="/assets/images/posts/enable-sharepoint-document-management/1_DocumentManagementSettings.png"
+  alt="Document Management Settings"
+  caption="Document Management Settings"
+%}
 
 A new window will open. In this window, you will be able to select the entities to enable Document Management on. You will also be able to enter the SharePoint URL (in my example I have made a site specifically for CRM documents).
 
-![First Window showing the entities that can be enabled & the site url](/assets/images/posts/enable-sharepoint-document-management/2_chooseentities.png)
+{%
+  include figure
+  image_path="/assets/images/posts/enable-sharepoint-document-management/2_chooseentities.png"
+  alt="First Window showing the entities that can be enabled & the site url"
+  caption="First Window showing the entities that can be enabled & the site url"
+%}
 
 The second page will then allow you to confirm the URL entered & select the folder structure. In my case I have selected to base it on the account entity. This means all the files will be stored under the account folder – each entity will get its own subfolder.
 
-![Selecting the folder structure](/assets/images/posts/enable-sharepoint-document-management/3_FolderStructure.png)
+{%
+  include figure
+  image_path="/assets/images/posts/enable-sharepoint-document-management/3_FolderStructure.png"
+  alt="Selecting the folder structure"
+  caption="Selecting the folder structure"
+%}
 
 Selecting next will allow the system to create the top-level folders in the SharePoint site.
 
 Interestingly, even though I have selected to have a folder structure based on an entity, each entity will still get an individual top-level folder. The folder structure will still be honored though, so any opportunity documents are added under */account/AccountName/opportunity/*
 
 ![Folders are created on SharePoint site](/assets/images/posts/enable-sharepoint-document-management/4_CreateFolders.png)
+{%
+  include figure
+  image_path="/assets/images/posts/enable-sharepoint-document-management/4_CreateFolders.png"
+  alt="Folders are created on SharePoint site"
+  caption="Folders are created on SharePoint site"
+%}
 
 ## Usage
 
 The documents are then accessible from within a record using the navigation menu at the top for related entities using the Documents link.
 
-![Navigation Menu shows Documents under Related Items](/assets/images/posts/enable-sharepoint-document-management/5_NavigateToDocuments.png)
+{%
+  include figure
+  image_path="/assets/images/posts/enable-sharepoint-document-management/5_NavigateToDocuments.png"
+  alt="Navigation Menu shows Documents under Related Items"
+  caption="Navigation Menu shows Documents under Related Items"
+%}
 
 It is not possible to add a sub-grid for SharePoint Documents to the page out of the box. I have created another [post](/dynamics/dynamics-365-show-sharepoint-documents-on-form) which shows how you can use an IFrame to achieve this.
 
-![The view from within Dynamics](/assets/images/posts/enable-sharepoint-document-management/6_DocumentsShown.png)
+{%
+  include figure
+  image_path="/assets/images/posts/enable-sharepoint-document-management/6_DocumentsShown.png"
+  alt="The view from within Dynamics"
+  caption="The view from within Dynamics"
+%}
 
-![The view from within SharePoint](/assets/images/posts/enable-sharepoint-document-management/7_DocumentShownInSharePoint.png)
+{%
+  include figure
+  image_path="/assets/images/posts/enable-sharepoint-document-management/7_DocumentShownInSharePoint.png"
+  alt="The view from within SharePoint"
+  caption="The view from within SharePoint"
+%}
 
 ## Summary
 

@@ -20,13 +20,23 @@ Whilst researching this functionality, I found the [addCustomView](https://docs.
 
 In this example, I am using the Accounts & Contacts in the image below. I will be viewing the Parent Account or Child Account records and will be expecting only users assigned to either of these show in the lookup.
 
-![View showing the contacts with Dynamics 365](/assets/images/posts/addCustomView-with-lookups/1_Contacts.png)
+{%
+  include figure
+  image_path="/assets/images/posts/addCustomView-with-lookups/1_Contacts.png"
+  alt="View showing the contacts with Dynamics 365"
+  caption="View showing the contacts with Dynamics 365"
+%}
 
 ## Before
 
 As would be expected, without including any custom filters all of the contacts are shown when trying to use the lookup.
 
-![All contacts showing as no filter in place](/assets/images/posts/addCustomView-with-lookups/2_UnfilteredData.png)
+{%
+  include figure
+  image_path="/assets/images/posts/addCustomView-with-lookups/2_UnfilteredData.png"
+  alt="All contacts showing as no filter in place"
+  caption="All contacts showing as no filter in place"
+%}
 
 ## JavaScript
 
@@ -54,7 +64,12 @@ function filterContacts() {
 
 After publishing the changes & reloading the page, you can now see that the Contact lookup is filtered to only show the the Contacts linked to the Parent Account.
 
-![Lookup showing only contacts with the parent child account structure](/assets/images/posts/addCustomView-with-lookups/3_FilteredLookup.png)
+{%
+  include figure
+  image_path="/assets/images/posts/addCustomView-with-lookups/3_FilteredLookup.png"
+  alt="Lookup showing only contacts with the parent child account structure"
+  caption="Lookup showing only contacts with the parent child account structure"
+%}
 
 ## Notes
 

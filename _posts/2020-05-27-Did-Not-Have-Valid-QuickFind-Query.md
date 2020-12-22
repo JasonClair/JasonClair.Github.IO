@@ -17,4 +17,9 @@ It turns out that the solution could not be uninstalled as the entity was being 
 
 To remove the entities from the Categorized Search, go to Settings -> Administration -> System Settings and then under the General tab scroll down until the you see the Select button for “Select entities for Categorized Search”
 
-![Setting within System Settings](/assets/images/posts/quick-find-error/Settings.png)
+{%
+  include figure
+  image_path="/assets/images/posts/quick-find-error/Settings.png"
+  alt="Setting within System Settings"
+  caption="Setting within System Settings"
+%}

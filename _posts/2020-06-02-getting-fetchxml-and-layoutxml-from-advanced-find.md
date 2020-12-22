@@ -15,12 +15,27 @@ When working with custom views inside Dynamics 365 you may need to create fetchX
 
 The easiest way to do this, in my opinion, is to create a new Advanced Find with the information & filters you require.
 
-![New Advanced Find](/assets/images/posts/getting-fetch-xml/1_CreatingAdvancedFind.png)
+{%
+  include figure
+  image_path="/assets/images/posts/getting-fetch-xml/1_CreatingAdvancedFind.png"
+  alt="New Advanced Find"
+  caption="New Advanced Find"
+%}
 
 Then execute the Advanced Find and get the results.
 
-![Showing the results in Advanced Find](/assets/images/posts/getting-fetch-xml/2_RunningAdvancedFind.png)
+{%
+  include figure
+  image_path="/assets/images/posts/getting-fetch-xml/2_RunningAdvancedFind.png"
+  alt="Showing the results in Advanced Find"
+  caption="Showing the results in Advanced Find"
+%}
 
 Once you’ve got the results page, open the Developer Tools (F12 in Chrome & Edge) and use the search functionality to look for fetchXml or layoutXml. You should find a div containing your strings.
 
-![layoutXml and fetchXml showing in the DOM](/assets/images/posts/getting-fetch-xml/3_GettingLayoutXml.png)
+{%
+  include figure
+  image_path="/assets/images/posts/getting-fetch-xml/3_GettingLayoutXml.png"
+  alt="layoutXml and fetchXml showing in the DOM"
+  caption="layoutXml and fetchXml showing in the DOM"
+%}

@@ -15,7 +15,12 @@ I have used SSRS to create Dynamics 365 reports for a while. This report shows t
 
 The report has worked well and the users have been happy with it. They have been exporting it to Excel to work with some of the numbers. The links within Excel have worked for them until recently when an error started to appear. The error was a generic “An error has occurred” message.
 
-![Error displayed to the user](/assets/images/posts/ssrs-open-in-crm-link-error/SSRSError.jpg)
+{%
+  include figure
+  image_path="/assets/images/posts/ssrs-open-in-crm-link-error/SSRSError.jpg"
+  alt="Error displayed to the user"
+  caption="Error displayed to the user"
+%}
 
 The error didn’t occur if the user copied the URL and pasted into a browser. It also didn’t occur when clicking the link within SSRS. I was also receiving the error, but a colleague didn’t – this made me think that it had to be machine related.
 

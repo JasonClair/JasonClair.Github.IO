@@ -103,4 +103,9 @@ function setDocumentsIFrame(executionContext, tabName, iframeName) {
 
 After the form & script have been updated, the documents sub- grid should appear on the form as below.
 
-![Documents showing in sub-grid on the Accounts Main Form](/assets/images/posts/show-sharepoint-documents/DocumentsShown.png)
+{%
+  include figure
+  image_path="/assets/images/posts/show-sharepoint-documents/DocumentsShown.png"
+  alt="Documents showing in sub-grid on the Accounts Main Form"
+  caption="Documents showing in sub-grid on the Accounts Main Form"
+%}
