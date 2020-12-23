@@ -1,10 +1,10 @@
 # main links
 main:
-  - title: "About"
-    url: /about/
-  - title: "Dynamics"
-    url: /Dynamics/
-  - title: "SharePoint"
-    url: /SharePoint/
+  # - title: "About"
+  #  url: /about/
+  # - title: "Dynamics"
+  #  url: /Dynamics/
+  # - title: "SharePoint"
+  #  url: /SharePoint/
   # - title: "Sitemap"
   #   url: /sitemap/
