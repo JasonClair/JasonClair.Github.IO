@@ -2,9 +2,9 @@
 main:
   - title: "About"
     url: /about/
-  # - title: "Dynamics"
-  #  url: /Dynamics/
-  # - title: "SharePoint"
-  #  url: /SharePoint/
+  - title: "Dynamics"
+    url: /categories/#dynamics
+  - title: "SharePoint"
+    url: /categories/#sharepoint
   # - title: "Sitemap"
   #   url: /sitemap/
