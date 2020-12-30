@@ -9,7 +9,7 @@ I started this blog as a way to document interesting challenges I've come across
 
 If you'd like to discuss anything on the blog or contact me for some help, please use the form below:
 
-{{ contact-form }}
+{% include contact-form.html %}
 
 ## Certifications
 
